@@ -72,9 +72,9 @@
                                     <button class="btn btn-success" ng-class="{'active': (selected == '2')}" ng-click='selected=2'>
                                         Events
                                     </button>
-									<button class="btn btn-success" ng-class="{'active': (selected == '3')}" ng-click='selected=3'>
-										Traits
-									</button>
+				    <button class="btn btn-success" ng-class="{'active': (selected == '3')}" ng-click='selected=3'>
+					Traits
+				    </button>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-form-label" for="">Price Between:</label>
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="row" ng-show='selected == 3'>
+		<div class="row" ng-show='selected == 3'>
                     <div class="col-md-12">
                         <div id="traits">
                             <div class="input-group input-group-sm mb-3">
@@ -163,6 +163,9 @@
                                 <button type="button" class="btn btn-primary sort" data-sort="abr">
                                     Sort by Name
                                 </button>
+                                <button type="button" class="btn btn-primary sort" data-sort="price">
+                                    Sort by Price
+                                </button>
                                 <button type="button" class="btn btn-primary sort" data-sort="effect">
                                     Sort by Effects
                                 </button>
@@ -171,7 +174,7 @@
                                 <tr>
                                     <th scope="col" class="sort" data-sort="abr">Name</th>
                                     <th scope="col" class="sort" data-sort="price">Price</th>
-                                    <th scope="col" class="sort" data-sort="karmatype">Effects</th>
+                                    <th scope="col" class="sort" data-sort="effect">Effects</th>
                                 </tr>
                                 <tbody class="list">
                                 </tbody>
@@ -279,22 +282,22 @@
             eventList = new List('events', options, eventData);
         });
 		
-		let traitList = null;
-		$.getJSON(traitListURL, function(data) {
-			var options = {
-				valueNames: ['abr', 'price', 'effect'],
-				item: '<tr><td class="abr" scope="row"></td><td class="effect"></td>'
-			};
-			
-			var traitData = [];
-			$.each(data.traititems, function(index, value) {
-				if (value["price"] > 0) {
-                    traitData.push(value);
-                }
-			});
-			
-			traitList = new List('traits', options, traitData);
+	let traitList = null;
+	$.getJSON(traitListURL, function(data) {
+		var options = {
+			valueNames: ['abr', 'price', 'effect'],
+			item: '<tr><td class="abr" scope="row"></td><td class = "price" scope="row"></td><td class="effect"></td></tr>'
+		};
+
+		var traitData = [];
+		$.each(data.traititems, function(index, value) {
+			if (value["price"] > 0) {
+	    			traitData.push(value);
+			}
 		});
+
+		traitList = new List('traits', options, traitData);
+	});
 
         $("#item-price-min").keyup(function() {
             updateItemFilter();
