@@ -3,11 +3,13 @@
 	{
 		"abr": "abrasive",
 		"price": 3500,
+		"mod": "Rimworld",
 		"effect": "Has a tendency to slight and insult people <br>-15% of the market value"
 	},
 	{
 		"abr": "annoyingvoice",
 		"price": 3500,
+		"mod": "Rimworld",
 		"effect": "-25% opinion from other colonists <br>-20% of the market value"
 	}
 	],
