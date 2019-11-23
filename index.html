@@ -17,6 +17,7 @@
 		const traitListURL = "https://raw.githubusercontent.com/vengeanceaurelith/vengeance-list/master/StoreTraits.json";
 		const useRimworldTraits = true;
 		const useFalloutTraits = true;
+		const useConsolidatedTraits = true;
     </script>
 </head>
 
@@ -300,7 +301,10 @@
 					}
 					if (value["mod"] === "Fallout Traits" && useFalloutTraits === true) {
 						traitData.push(value);
-					}					
+					}	
+					if (value["mod"] === "Consolidated Traits" && useConsolidatedTraits === true) {
+						traitData.push(value);
+					}									
 				}
 			});
 
