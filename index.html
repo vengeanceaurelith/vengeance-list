@@ -41,21 +41,21 @@
                 <h1 class="display-3">TwitchToolkit</h1>
                 <p>TwitchToolkit is a mod written by Twitch.tv/hodlhodl that integrates storytelling decisions into chat votes, awards viewers coins for watching, and those coins can be spent on items/events in game.</p>
                 <ul class="list-group">
-					<li class="list-group-item">!bal - check balance and karma rate</li>
-					<li class="list-group-item">!buy - Syntax: !buy beer 6 - purchase an item or event</li>
-					<li class="list-group-item">!whatiskarma - explains what the karma system is</li>
-					<li class="list-group-item">!purchaselist - gives users a link to the public purchase list</li>
-					<li class="list-group-item">!instructions - gives users info on using the mod</li>
-					<li class="list-group-item">!modinfo - gives users info about the mod</li>
-					<li class="list-group-item">!modsettings - gives user info on how many coins are being earned and global settings</li>
-					<li class="list-group-item">!giftcoins - Syntax: !giftcoins @username 100 - give another viewer your coins</li>
-					<li class="list-group-item">!toolkitcmds - shows all available commands to the user, this does not translate by default so it can be universally recognized.</li>
-					<li class="list-group-item">!buy ticket - join the viewer name queue</li>
-					<li class="list-group-item">!mypawnstory - view information about your pawn's backstory</li>
-					<li class="list-group-item">!mypawnskills - view information about your pawn's skills</li>
+                    <li class="list-group-item">!bal - check balance and karma rate</li>
+                    <li class="list-group-item">!buy - Syntax: !buy beer 6 - purchase an item or event</li>
+                    <li class="list-group-item">!whatiskarma - explains what the karma system is</li>
+                    <li class="list-group-item">!purchaselist - gives users a link to the public purchase list</li>
+                    <li class="list-group-item">!instructions - gives users info on using the mod</li>
+                    <li class="list-group-item">!modinfo - gives users info about the mod</li>
+                    <li class="list-group-item">!modsettings - gives user info on how many coins are being earned and global settings</li>
+                    <li class="list-group-item">!giftcoins - Syntax: !giftcoins @username 100 - give another viewer your coins</li>
+                    <li class="list-group-item">!toolkitcmds - shows all available commands to the user, this does not translate by default so it can be universally recognized.</li>
+                    <li class="list-group-item">!buy ticket - join the viewer name queue</li>
+                    <li class="list-group-item">!mypawnstory - view information about your pawns backstory</li>
+                    <li class="list-group-item">!mypawnskills - view information about your pawns skills</li>
 					<li class="list-group-item">!mypawnhealth - view information about your pawn's health</li>
 					<li class="list-group-item">!mypawnbody - view information about your pawn's body</li>
-					<li class="list-group-item">!mypawngear - view information about your pawn's gear</li>	
+					<li class="list-group-item">!mypawngear - view information about your pawn's gear</li>
                 </ul>
             </div>
         </div>
@@ -73,8 +73,8 @@
                                         Events
                                     </button>
 									<button class="btn btn-success" ng-class="{'active': (selected == '3')}" ng-click='selected=3'>
-										Traits
-									</button>
+                                        Traits
+                                    </button>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-form-label" for="">Price Between:</label>
@@ -100,7 +100,7 @@
                             </div>
                             <p>
                                 <button type="button" class="btn btn-primary sort" data-sort="abr">
-                                    Sort by Name
+                                    Sort
                                 </button>
                                 <button type="button" class="btn btn-primary sort" data-sort="price">
                                     Sort by Price
@@ -129,7 +129,7 @@
                             </div>
                             <p>
                                 <button type="button" class="btn btn-primary sort" data-sort="abr">
-                                    Sort by Name
+                                    Sort
                                 </button>
                                 <button type="button" class="btn btn-primary sort" data-sort="price">
                                     Sort by Price
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-		<div class="row" ng-show='selected == 3'>
+				<div class="row" ng-show='selected == 3'>
                     <div class="col-md-12">
                         <div id="traits">
                             <div class="input-group input-group-sm mb-3">
@@ -163,18 +163,19 @@
                                 <button type="button" class="btn btn-primary sort" data-sort="abr">
                                     Sort by Name
                                 </button>
-                                <button type="button" class="btn btn-primary sort" data-sort="price">
-                                    Sort by Price
-                                </button>
+								<button type="button" class="btn btn-primary sort" data-sort="mod">
+									Sort by Mod
+								</button>
                                 <button type="button" class="btn btn-primary sort" data-sort="effect">
-                                    Sort by Effects
+                                    Sort by Effect
                                 </button>
                             </p>
-                            <table class="table events">
+                            <table class="table traits">
                                 <tr>
                                     <th scope="col" class="sort" data-sort="abr">Name</th>
                                     <th scope="col" class="sort" data-sort="price">Price</th>
-                                    <th scope="col" class="sort" data-sort="effect">Effects</th>
+									<th scope="col" class="sort" data-sort="mod">Mod</th>
+                                    <th scope="col" class="sort" data-sort="effect">Effect</th>
                                 </tr>
                                 <tbody class="list">
                                 </tbody>
@@ -254,45 +255,59 @@
                 valueNames: ['abr', 'price', 'category'],
                 item: '<tr><td class="abr" scope="row"></td><td class="price"></td><td class="category"></td></tr>'
             };
+
             var itemData = [];
             $.each(data.items, function(index, value) {
                 if (value["price"] > 0) {
                     itemData.push(value);
                 }
             });
+
             itemList = new List('items', options, itemData);
         });
+
         let eventList = null;
         $.getJSON(eventListURL, function(data) {
             var options = {
                 valueNames: ['abr', 'price', 'karmatype'],
                 item: '<tr><td class="abr" scope="row"></td><td class="price"></td><td class="karmatype"></td></tr>'
             };
+
             var eventData = [];
             $.each(data.incitems, function(index, value) {
                 if (value["price"] > 0) {
                     eventData.push(value);
                 }
             });
+
             eventList = new List('events', options, eventData);
         });
 		
-	let traitList = null;
-	$.getJSON(traitListURL, function(data) {
-		var options = {
-			valueNames: ['abr', 'price', 'effect'],
-			item: '<tr><td class="abr" scope="row"></td><td class = "price" scope="row"></td><td class="effect"></td></tr>'
-		};
+		let traitList = null;
+		$.getJSON(traitListURL, function(data) {
+			var options = {
+				valueNames: ['abr', 'price', 'mod', 'effect'],
+				item: '<tr><td class="abr" scope="row"></td><td class="price"></td><td class="mod"></td><td class="effect"></td></tr>'
+			};
 
-		traitList = new List('traits', options, traitData);
-	});
+			var traitData = [];
+			$.each(data.traits, function(index, value) {
+				if (value["price"] > 0) {
+					traitData.push(value);
+				}
+			});
+
+			traitList = new List('traits', options, traitData);
+		});
 
         $("#item-price-min").keyup(function() {
             updateItemFilter();
         });
+
         $("#item-price-max").keyup(function() {
             updateItemFilter();
         });
+
         function updateItemFilter() {
             var minPrice = $("#item-price-min").val();
             var maxPrice = $("#item-price-max").val();
