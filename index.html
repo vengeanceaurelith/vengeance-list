@@ -15,6 +15,7 @@
         const itemListURL = "https://raw.githubusercontent.com/vengeanceaurelith/vengeance-list/master/StoreItems.json";
 		const eventListURL = "https://raw.githubusercontent.com/vengeanceaurelith/vengeance-list/master/StoreIncidents.json";
 		const traitListURL = "https://raw.githubusercontent.com/vengeanceaurelith/vengeance-list/master/StoreTraits.json";
+		const useRimworldTraits = true;
 		const useFalloutTraits = true;
     </script>
 </head>
@@ -294,14 +295,12 @@
 			var traitData = [];
 			$.each(data.traits, function(index, value) {
 				if (value["price"] > 0) {
-					traitData.push(value);
-				}
-			});
-			
-			if (useFalloutTraits) {
-				$.each(data.falloutTraits, function(index, value) {
-					if (value["price"] > 0 {
+					if (value["mod"] === "Rimworld" && useRimworldTraits === true) {
 						traitData.push(value);
+					}
+					if (value["mod"] === "Fallout Traits" && useFalloutTraits === true) {
+						traitData.push(value);
+					}					
 				}
 			});
 
