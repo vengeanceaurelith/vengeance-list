@@ -1,370 +1,553 @@
 {
-	"traits": [{
-			"abr": "abrasive",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Has a tendency to slight and insult people <br>-15% of the market value"
-		},
-		{
-			"abr": "annoyingvoice",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-25% opinion from other colonists <br>-20% of the market value"
-		},
-		{
-			"abr": "ascetic",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+5 mood bonus for having an awful bedroom <br>-5 mood penalty for having a slightly impressive or better bedroom. <br>Mood not affected by food quality, prefers raw food."
-		},
-		{
-			"abr": "beautiful",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+40% opinion from other colonists <br>+40% of the market value"
-		},
-		{
-			"abr": "bloodlust",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+3/+5/+7/+8 mood bonus for wearing clothing made out of human skin <br>+8 mood bonus for witnessing a stranger's death <br>+13 mood bonus for killing strangers <br>No mood penalty for wearing tainted clothes <br>Four times as likely to start a social fight"
-		},
-		{
-			"abr": "bodypurist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Heavy mood penalty for having artificial body parts, starting at -10, going down to -35 <br>-8 opinion of other colonists for each part installed on them, down to -40"
-		},
-		{
-			"abr": "brawler",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Melee skill +4 <br>Shooting skill -4 <br>Melee dodge chance +4.0 <br>-20 mood penalty for wielding a ranged weapon"
-		},
-		{
-			"abr": "cannibal",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+3/+5/+7/+8 mood bonus for wearing clothing made out of human skin <br>+15 mood bonus after eating meal made with human flesh +20 mood bonus after eating raw human flesh"
-		},
-		{
-			"abr": "carefulshooter",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Aiming time +25% <br>Shooting accuracy +25%"
-		},
-		{
-			"abr": "chemicalfascination",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Will randomly go on hard drug binges, and ignores drug policies"
-		},
-		{
-			"abr": "chemicalinterest",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Will randomly go on social drug binges, and ignores drug policies"
-		},
-		{
-			"abr": "creepybreathing",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-25 opinion from other colonists <br>-10% of the market value"
-		},
-		{
-			"abr": "depressive",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Permanent -12 mood penalty"
-		},
-		{
-			"abr": "fastlearner",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Global learning speed +75%"
-		},
-		{
-			"abr": "fastwalker",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Movement speed +0.2 c/s"
-		},
-		{
-			"abr": "gay",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Will have romantic relationships with people of the same gender."
-		},
-		{
-			"abr": "gourmand",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+50% hunger rate <br>+4 cooking skill <br>Only possible mental break is food binge; can randomly change to such"
-		},
-		{
-			"abr": "greatmemory",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Skill loss rate x50%"
-		},
-		{
-			"abr": "greedy",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-8/-8/-8/-6/-4 mood penalty for not having an impressive bedroom."
-		},
-		{
-			"abr": "hardworker",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Work speed +20%"
-		},
-		{
-			"abr": "industrious",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Work speed +35%"
-		},
-		{
-			"abr": "iron-willed",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Mental break threshold -18%"
-		},
-		{
-			"abr": "jealous",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-8 mood penalty for not having the best bedroom."
-		},
-		{
-			"abr": "jogger",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Movement speed +0.4 c/s"
-		},
-		{
-			"abr": "kind",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Sometimes tells others Kind Words <br>+5 mood bonus for anyone who has been told Kind Words by this colonist <br>Will not Slight or Insult others"
-		},
-		{
-			"abr": "lazy",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Work speed -20%"
-		},
-		{
-			"abr": "masochist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+5 mood bonus for being in a little pain <br>+10 mood bonus for being in medium pain <br>+15 mood bonus for being in severe pain <br>+20 mood bonus for being in shock"
-		},
-		{
-			"abr": "misandrist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-25 opinion of men."
-		},
-		{
-			"abr": "misogynist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-25 opinion of women."
-		},
-		{
-			"abr": "nervous",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Mental break threshold +8%"
-		},
-		{
-			"abr": "neurotic",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Work speed +20% <br>Mental break threshold +8%"
-		},
-		{
-			"abr": "nightowl",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-10 mood penalty during day (11:00 - 1800) <br>+16 mood bonus during night (23:00 - 06:00)"
-		},
-		{
-			"abr": "nimble",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Melee dodge chance +15.0"
-		},
-		{
-			"abr": "nudist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+20 mood bonus when naked <br>-3 mood penalty for wearing any clothing (except headgear and belts)"
-		},
-		{
-			"abr": "optimist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Permanent +6 mood bonus"
-		},
-		{
-			"abr": "pessimist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Permanent -6 mood penalty"
-		},
-		{
-			"abr": "pretty",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+20% opinion from other colonists <br>+20% of the market value"
-		},
-		{
-			"abr": "psychicallydeaf",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Psychic sensitivity -100%"
-		},
-		{
-			"abr": "psychicallydull",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Psychic sensitivity -50%"
-		},
-		{
-			"abr": "psychicallyhypersensitive",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Psychic sensitivity +80%"
-		},
-		{
-			"abr": "psychicallysensitive",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Psychic sensitivity +40%"
-		},
-		{
-			"abr": "psychopath",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Mood not affected by sight of death, unburied colonists, prisoners sold into slavery, organ harvesting, butchering of humans or friendly chats"
-		},
-		{
-			"abr": "pyromaniac",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+5 mood bonus for having an incendiary weapon equipped <br> Incapable of firefighting <br>Only possible mental break is fire starting spree; can randomly change to such <br> -20% of the market value"
-		},
-		{
-			"abr": "quicksleeper",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "+50% rest gain rate"
-		},
-		{
-			"abr": "sanguine",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Permanent +12 mood bonus"
-		},
-		{
-			"abr": "sickly",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Medicine skill +4 <br>Randomly catch diseases independently from the rest of the colony"
-		},
-		{
-			"abr": "slothful",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Work speed -35%"
-		},
-		{
-			"abr": "slowpoke",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Movement speed -0.2 c/s"
-		},
-		{
-			"abr": "staggeringlyugly",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-40% opinion from other colonists <br>-40% of the market value"
-		},
-		{
-			"abr": "steadfast",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Mental break threshold -9%"
-		},
-		{
-			"abr": "super-immune",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Immunity gain speed +30%"
-		},
-		{
-			"abr": "teetotaler",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Will not go on binges <br>Cannot be directed to take non-medical drugs; force administering the drug will cause a -20 mood penalty <br>-25 opinion of any pawns with chemical interest or fascination"
-		},
-		{
-			"abr": "trigger-happy",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Aiming time -50% <br>Shooting accuracy -25%"
-		},
-		{
-			"abr": "toosmart",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Global learning speed +75% <br>Mental break threshold +12%"
-		},
-		{
-			"abr": "tough",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Take 50% damage"
-		},
-		{
-			"abr": "transhumanist",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Mood bonus for having artificial body parts, from +4 up to +13 <br>-4 mood penalty for not having an artificial body part <br>+8 opinion of other colonists for each part installed on them, up to +40"
-		},
-		{
-			"abr": "ugly",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "-20% opinion from other colonists <br>-20% of the market value"
-		},
-		{
-			"abr": "undergrounder",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Mood not affected by Darkenss <br>No Outdoors or Space needed"
-		},
-		{
-			"abr": "veryneurotic",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Work speed +40% <br>Mental break threshold +14%"
-		},
-		{
-			"abr": "volatile",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Mental break threshold +15%"
-		},
-		{
-			"abr": "wimp",
-			"price": 3500,
-			"mod": "Rimworld",
-			"effect": "Pain shock threshold to 20% <br>-15% of the market value"
-		}
+	"traits" : [
+	{
+		"abr": "abrasive",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Has a tendency to slight and insult people <br>-15% of the market value"
+	},
+	{
+		"abr": "annoyingvoice",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-25% opinion from other colonists <br>-20% of the market value"
+	},
+	{
+		"abr": "ascetic",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+5 mood bonus for having an awful bedroom <br>-5 mood penalty for having a slightly impressive or better bedroom. <br>Mood not affected by food quality, prefers raw food."
+	},
+	{	
+		"abr": "beautiful",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+40% opinion from other colonists <br>+40% of the market value"
+	},
+	{
+		"abr": "bloodlust",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+3/+5/+7/+8 mood bonus for wearing clothing made out of human skin <br>+8 mood bonus for witnessing a stranger's death <br>+13 mood bonus for killing strangers <br>No mood penalty for wearing tainted clothes <br>Four times as likely to start a social fight"
+	},
+	{
+		"abr": "bodypurist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Heavy mood penalty for having artificial body parts, starting at -10, going down to -35 <br>-8 opinion of other colonists for each part installed on them, down to -40"
+	},
+	{
+		"abr": "brawler",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Melee skill +4 <br>Shooting skill -4 <br>Melee dodge chance +4.0 <br>-20 mood penalty for wielding a ranged weapon"
+	},
+	{
+		"abr": "cannibal",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+3/+5/+7/+8 mood bonus for wearing clothing made out of human skin <br>+15 mood bonus after eating meal made with human flesh +20 mood bonus after eating raw human flesh"
+	},
+	{	
+		"abr": "carefulshooter",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Aiming time +25% <br>Shooting accuracy +25%"
+	},
+	{
+		"abr": "chemicalfascination",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Will randomly go on hard drug binges, and ignores drug policies"
+	},
+	{
+		"abr": "chemicalinterest",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Will randomly go on social drug binges, and ignores drug policies"
+	},
+	{
+		"abr": "creepybreathing",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-25 opinion from other colonists <br>-10% of the market value"
+	},
+	{	
+		"abr": "depressive",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Permanent -12 mood penalty"
+	},
+	{
+		"abr": "fastlearner",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Global learning speed +75%"
+	},
+	{	
+		"abr": "fastwalker",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Movement speed +0.2 c/s"
+	},
+	{
+		"abr": "gay",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Will have romantic relationships with people of the same gender."
+	},
+	{
+		"abr": "gourmand",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+50% hunger rate <br>+4 cooking skill <br>Only possible mental break is food binge; can randomly change to such"
+	},
+	{
+		"abr": "greatmemory",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Skill loss rate x50%"
+	},
+	{	
+		"abr": "greedy",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-8/-8/-8/-6/-4 mood penalty for not having an impressive bedroom."
+	},
+	{	
+		"abr": "hardworker",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Work speed +20%"
+	},
+	{	
+		"abr": "industrious",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Work speed +35%"
+	},
+	{	
+		"abr": "iron-willed",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Mental break threshold -18%"
+	},
+	{
+		"abr": "jealous",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-8 mood penalty for not having the best bedroom."
+	},
+	{	
+		"abr": "jogger",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Movement speed +0.4 c/s"
+	},
+	{
+		"abr": "kind",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Sometimes tells others Kind Words <br>+5 mood bonus for anyone who has been told Kind Words by this colonist <br>Will not Slight or Insult others"
+	},
+	{	
+		"abr": "lazy",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Work speed -20%"
+	},
+	{
+		"abr": "masochist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+5 mood bonus for being in a little pain <br>+10 mood bonus for being in medium pain <br>+15 mood bonus for being in severe pain <br>+20 mood bonus for being in shock"
+	},
+	{
+		"abr": "misandrist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-25 opinion of men."
+	},
+	{	
+		"abr": "misogynist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-25 opinion of women."
+	},
+	{	
+		"abr": "nervous",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Mental break threshold +8%"
+	},
+	{	
+		"abr": "neurotic",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Work speed +20% <br>Mental break threshold +8%"
+	},
+	{
+		"abr": "nightowl",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-10 mood penalty during day (11:00 - 1800) <br>+16 mood bonus during night (23:00 - 06:00)"
+	},
+	{
+		"abr": "nimble",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Melee dodge chance +15.0"
+	},
+	{
+		"abr": "nudist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+20 mood bonus when naked <br>-3 mood penalty for wearing any clothing (except headgear and belts)"
+	},
+	{	
+		"abr": "optimist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Permanent +6 mood bonus"
+	},
+	{	
+		"abr": "pessimist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Permanent -6 mood penalty"
+	},
+	{	
+		"abr": "pretty",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+20% opinion from other colonists <br>+20% of the market value"
+	},
+	{	
+		"abr": "psychicallydeaf",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Psychic sensitivity -100%"
+	},
+	{	
+		"abr": "psychicallydull",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Psychic sensitivity -50%"
+	},
+	{	
+		"abr": "psychicallyhypersensitive",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Psychic sensitivity +80%"
+	},
+	{	
+		"abr": "psychicallysensitive",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Psychic sensitivity +40%"
+	},
+	{
+		"abr": "psychopath",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Mood not affected by sight of death, unburied colonists, prisoners sold into slavery, organ harvesting, butchering of humans or friendly chats"
+	},
+	{
+		"abr": "pyromaniac",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+5 mood bonus for having an incendiary weapon equipped <br> Incapable of firefighting <br>Only possible mental break is fire starting spree; can randomly change to such <br> -20% of the market value"
+	},
+	{
+		"abr": "quicksleeper",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "+50% rest gain rate"
+	},
+	{	
+		"abr": "sanguine",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Permanent +12 mood bonus"
+	},
+	{	
+		"abr": "sickly",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Medicine skill +4 <br>Randomly catch diseases independently from the rest of the colony"
+	},
+	{	
+		"abr": "slothful",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Work speed -35%"
+	},
+	{	
+		"abr": "slowpoke",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Movement speed -0.2 c/s"
+	},
+	{	
+		"abr": "staggeringlyugly",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-40% opinion from other colonists <br>-40% of the market value"
+	},
+	{	
+		"abr": "steadfast",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Mental break threshold -9%"
+	},
+	{	
+		"abr": "super-immune",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Immunity gain speed +30%"
+	},
+	{
+		"abr": "teetotaler",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Will not go on binges <br>Cannot be directed to take non-medical drugs; force administering the drug will cause a -20 mood penalty <br>-25 opinion of any pawns with chemical interest or fascination"
+	},
+	{	
+		"abr": "trigger-happy",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Aiming time -50% <br>Shooting accuracy -25%"
+	},
+	{
+		"abr": "toosmart",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Global learning speed +75% <br>Mental break threshold +12%"
+	},
+	{
+		"abr": "tough",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Take 50% damage"
+	},
+	{
+		"abr": "transhumanist",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Mood bonus for having artificial body parts, from +4 up to +13 <br>-4 mood penalty for not having an artificial body part <br>+8 opinion of other colonists for each part installed on them, up to +40"
+	},
+	{	
+		"abr": "ugly",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "-20% opinion from other colonists <br>-20% of the market value"
+	},
+	{
+		"abr": "undergrounder",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Mood not affected by Darkenss <br>No Outdoors or Space needed"
+	},
+	{	
+		"abr": "veryneurotic",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Work speed +40% <br>Mental break threshold +14%"
+	},
+	{	
+		"abr": "volatile",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Mental break threshold +15%"
+	},
+	{
+		"abr": "wimp",
+		"price": 3500,
+		"mod": "Rimworld",
+		"effect": "Pain shock threshold to 20% <br>-15% of the market value"
+	}
 	],
-	"total": 61
+	"fallouttraits": [
+	{
+		"abr": "strongback",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+50 carrying capacity"
+	},
+	{
+		"abr": "verystrongback",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+75 carrying capacity"
+	},
+	{
+		"abr": "frailback",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-25 carrying capacity"
+	},
+	{
+		"abr": "animalfriend",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% animal gathering speed/yield <br>+5% animal training/taming chance <br>+4 animal skill"
+	},
+	{
+		"abr": "quickhands",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-15% aiming delay <br>+15% work speed <br>+5% melee hit chance <br>+2 melee skill"
+	},
+	{
+		"abr": "idiotsavant",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+100% learning factor <br>-25% work speed <br>incapable of caring, intellectual and social tasks"
+	},
+	{
+		"abr": "charismatic",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% negotiation ability <br>+20% social impact <br>+5% trade price improvement <br>+2 social skill"
+	},
+	{
+		"abr": "verycharismatic",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% negotiation ability <br>+30% social impact <br>+10% trade price improvement <br>+4 social skill"
+	},
+	{
+		"abr": "gunnut",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-10% aiming delay <br>+5% shooting accuracy <br>+10 mood bonus while wearing a ranged weapon <br>+2 shooting skill"
+	},
+	{
+		"abr": "radresistant",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-50% toxic sensitivity <br>+15% immunity gain speed"
+	},
+	{
+		"abr": "ghoulish",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-100% toxic sensitivity <br>+30% immunity gain speed <br>-20% social impact <br>-10% to both animal taming and training chance <br>-3 to both social and animal skills"
+	},
+	{
+		"abr": "rooted",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-20% movement speed <br>+20% max pain threshold <br>+10% immunity gain speed"
+	},
+	{
+		"abr": "actionboy/girl",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+20% movement speed <br>+20% work speed <br>+20% eating speed"
+	},
+	{
+		"abr": "intimidating",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% negotiation ability <br> +20% social impact <br>+2 social skill"
+	},
+	{
+		"abr": "veryintimidating",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+20% negotiation ability <br> +30% social impact <br>+2 social skill"
+	},
+	{
+		"abr": "scrapper",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+20% smelting speed <br>+10% fix broken building chance <br> +10% construction success chance <br> +10% construction speed <br> +2 to construction and crafting"
+	},
+	{
+		"abr": "fortunefinder",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% mining yield <br>+10% animal gathering yield <br>+10% meat yield <br>+10% trade price improvement <br>+5 forage nutrition per day"
+	},
+	{
+		"abr": "steadyaim",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+5% melee hit chance <br>+5 ranged accuracy <br>+2 shooting skill"
+	},
+	{
+		"abr": "pooraim",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-5% melee hit chance <br>-5% ranged accuracy <br>-2 shooting skill"
+	},
+	{
+		"abr": "agile",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+15% hunting stealth <br>+20% movement speed <br>+5% melee dodge chance <br>+5% melee hit chance <br>+2 melee skill"
+	},
+	{
+		"abr": "ninja-like",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+30% hutning stealth <br>+40% movement speed <br>+5% melee dodge chance <br>+5% melee hit chance <br>+4 melee skill"
+	},
+	{
+		"abr": "stupid",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-10% research speed <br>-25% global learning factor <br>-10% negotiation ability <br>-5% trade price improvement <br>-5% construction success chance <br> -5% fix broken building chance <br>-3 intellectual and medical skill"
+	},
+	{
+		"abr": "intelligent",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% research speed <br>+15% global learning factor <br>+5% negotiation ability <br>+5% trade price improvement <br> +3 intellectual skill and +2 medical skill"
+	},
+	{
+		"abr": "veryintelligent",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+20% research speed <br>+30% global learning factor <br>+10% negotiation ability <br>+10% trade price improvement <br> +5 intellectual skill and +3 medical skill"
+	},
+	{
+		"abr": "perceptive",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% social impact <br>+10% negotiation ability <br>+5% trade price improvement <br>+5% tame/train animal chance <br>+2 intellectual, medical and social skills"
+	},
+	{
+		"abr": "veryperceptive",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+20% social impact <br>+20% negotiation ability <br>+10% trade price improvement <br>+5% tame/train animal chance <br>+3 intellectual, medical and social skills"
+	},
+	{
+		"abr": "oblivious",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "-10% social impact <br>-10% negotiation ability <br>-5% trade price improvement <br>-5% tame/train animal chance <br>-2 intellectual, medical and social skills"
+	},
+	{
+		"abr": "scrougner",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+20% mining speed <br>+20% animal gather speed <br>+20% plant gather speed <br>+20% eating speed"
+	},
+	{
+		"abr": "enduring",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+10% max pain threshold <br>-10% mental break threshold <br>+10% immunity gain speed <br>-15% toxic sensitivity <br>-15% psychic sensitivity"
+	},
+	{
+		"abr": "veryenduring",
+		"price": 3500,
+		"mod": "Fallout Traits",
+		"effect": "+20% max pain threshold <br>-02% mental break threshold <br>+15% immunity gain speed <br>-30% toxic sensitivity <br>-30% psychic sensitivity"
+	}
+	],
+	"total" : 91
 }
