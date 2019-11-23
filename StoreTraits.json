@@ -365,9 +365,7 @@
 		"price": 3500,
 		"mod": "Rimworld",
 		"effect": "Pain shock threshold to 20% <br>-15% of the market value"
-	}
-	],
-	"falloutTraits": [
+	},
 	{
 		"abr": "strongback",
 		"price": 3500,
