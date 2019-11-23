@@ -545,7 +545,271 @@
 		"price": 3500,
 		"mod": "Fallout Traits",
 		"effect": "+20% max pain threshold <br>-02% mental break threshold <br>+15% immunity gain speed <br>-30% toxic sensitivity <br>-30% psychic sensitivity"
+	},
+	{
+		"abr": "aesthete",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "Unknown"
+	},
+	{
+		"abr": "animallover",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+10% animal gather speed <br>+20% animal gather yield <br>+40% animal tame/train chance <br>-40% social impact <br>+4 animals skill and -2 social skill"
+	},
+	{
+		"abr": "animalhater",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-10% animal gather speed <br>-20% animal gather yield <br>-40% animal tame/train chance <br>-4 animals skill"
+	},
+	{
+		"abr": "bipolar",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "Randomly gains +32/+16/-16/-32 mood buff"
+	},
+	{
+		"abr": "builder",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+20% construction speed and success chance <br>-40% sculpting speed <br>+2 construction skill and -2 artistic skill"
+	},
+	{
+		"abr": "butcher",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "20% butchery flesh efficiency <br>+40% butchery flesh speed <br>-20% butchery mechanoid efficiency <br>-40% butchery mechanoid speed <br>+2 construction skill"
+	},
+	{
+		"abr": "claustrophobic",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% mining speed and yield <br>-2 mining skill"
+	},
+	{
+		"abr": "coldlover",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-3 comfy temperature max<br>-5 comfy temperature min"
+	},
+	{
+		"abr": "deepsleeper",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "Unknown"
+	},
+	{
+		"abr": "dunce",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-25% global learning factor <br>-20% research speed <br>-4 intellectual skill"
+	},
+	{
+		"abr": "gourmet",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% cook speed <br>-40% food poison chance <br>+4 cooking skill"
+	},
+	{
+		"abr": "heatlover",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+5 comfy temperature max <br>+3 comfy temperature min"
+	},
+	{
+		"abr": "inept",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-25% global work speed <br>-20% animal gather speed and yield <br>-20% butchery speed and efficiency <br>-20% construction speed and success chance <br>-20% cook speed <br>-20% fix broken down building success chance <br>20% food poison chance <br>-20% mining speed and yield <br>-20% plant harvest yield and work speed <br>-20% sculpting speed <br>-20% smithing speed <br>-20% tailoring speed <br>-2 artistic, construction, cooking, crafting and mining skills"
+	},
+	{
+		"abr": "coordinated",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+20% global work speed <br>10 animal gather speed and yield <br>+10% butchery speed and efficiency <br>+10% construction speed and success chance <br>+10% cook speed <br>+10% fix broken down building success chance <br>+10% food poison chance <br>+10% mining speed and yield <br>+10% plant harvest yield and work speed <br>+10% sculpting speed <br>-20% smithing speed <br>+10% tailoring speed <br>+2 artistic, construction, cooking, crafting and mining skills"
+	},
+	{
+		"abr": "unstoppable",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+65% pain shock threshold"
+	},
+	{
+		"abr": "ironman",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+33% pain shock threshold"
+	},
+	{
+		"abr": "lowpaintolerance",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-33% pain shock threshold"
+	},
+	{
+		"abr": "inventor",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+40% research speed <br>-20% global work speed <br>-10% move speed <br>+10% psychic sensitivity <br>+10% mental break threshold <br>+2 intellectual skill"
+	},
+	{
+		"abr": "cranialnervepalsy",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-4 shooting accuracy <br>-4 melee hit chance <br>-20% global work speed"
+	},
+	{
+		"abr": "eagle-eyed",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+1 melee hit chance <br>+5 shooting accuracy"
+	},
+	{
+		"abr": "neatfreak",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% global work speed <br>-50% food poison chance <br>20% immunity gain speed <br>+20% medical surgery success chance <br>+20% medical tend quality <br>-10% medical operation speed <br>-10% medical tend speed <br>+2 cooking skill"
+	},
+	{
+		"abr": "nibbler",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-25% eating speed"
+	},
+	{
+		"abr": "glutton",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "=25% eating speed"
+	},
+	{
+		"abr": "nyctophobe",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "You are really afraid of the dark."
+	},
+	{
+		"abr": "nyctophile",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "You do not fear the dark at all."
+	},
+	{
+		"abr": "perfectionist",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% global work speed <br>-10% animal gather speed <br>+20% animal gather yield <br>+20% butchery efficiency <br>-10% butchery speed <br>-10% construction speed <br>+20% construction success chance <br>-10% cook speed <br>+20% fix broken down building success chance <br>-20% food poison chance <br>-10% medical operation speed <br>+20% medical surgery success chance <br>+20% medical tend quality <br>-10% medical tend speed <br>-10% mining speed <br>+20% mining yield <br>+20% plant harvest yield <br>-10% play work speed <br>-10% research speed <br>-10% sculpting speed <br>-10% smithing speed <br>-10% tailoring speed"
+	},
+	{
+		"abr": "poormedic",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% surgery success chance <br>-20% medical tend quality <br>-2 medicine"
+	},
+	{
+		"abr": "skilledmedic",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+20% surgery success chance <br>+20% medical tend quality <br>+2 medicine"
+	},
+	{
+		"abr": "mastermedic",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% operation speed <br>+40% surgery success chance <br>-20% medical tend speed <br>+40% medical tend quality <br>+4 medical"
+	},
+	{
+		"abr": "rockhound",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% global work speed <br>+40% mining speed <br>+20% mining yield <br>-50% plant harvest yield <br>-40% plant work speed <br>+40% smoothing speed <br>+2 crafting <br>+4 mining"
+	},
+	{
+		"abr": "savant",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+80% global learning factor <br>-60% global work speed <br>+4 artistic <br>+4 crafting <br>+4 intellectual"
+	},
+	{
+		"abr": "sucker",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-20% trade price improvement <br>-2 social"
+	},
+	{
+		"abr": "haggler",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+20% trade price improvement <br>+2 social"
+	},
+	{
+		"abr": "mastertrader",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+40% trade price improvement <br>+4 social"
+	},
+	{
+		"abr": "carefulshooter",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+25% aiming time <br>+3 shooting accuracy"
+	},
+	{
+		"abr": "trigger-happy",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-50% aiming time <br>+4 shooting accuracy"
+	},
+	{
+		"abr": "deadshot",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-50% aiming time <br>+4 shooting accuracy <br>+2 shooting"
+	},
+	{
+		"abr": "uncouth",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-15% negotiation ability <br>-20% social impact <br>-2 social"
+	},
+	{
+		"abr": "diplomat",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+15% negotiation ability <br>+20% social impact <br>+2 social"
+	},
+	{
+		"abr": "masterdiplomat",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+30% negotiation ability <br>+40% social impact <br>+4 social"
+	},
+	{
+		"abr": "weakconstitution",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-25% immunity gain speed <br>+50% toxic sensitivity"
+	},
+	{
+		"abr": "strongconstitution",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+25% immunity gain speed <br>-50% toxic sensitivity"
+	},
+	{
+		"abr": "brownthumb",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "-15% plant harvest yield <br>-15% plant work speed <br>-2 plants"
+	},
+	{
+		"abr": "greenthumb",
+		"price": 3500,
+		"mod": "Consolidated Traits",
+		"effect": "+15% plant harvest yield <br>+15% plant work speed <br>+2 plants"
 	}
 	],
-	"total" : 91
+	"total" : 136
 }
