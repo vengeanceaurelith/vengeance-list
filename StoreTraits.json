@@ -367,7 +367,7 @@
 		"effect": "Pain shock threshold to 20% <br>-15% of the market value"
 	}
 	],
-	"fallouttraits": [
+	"falloutTraits": [
 	{
 		"abr": "strongback",
 		"price": 3500,
