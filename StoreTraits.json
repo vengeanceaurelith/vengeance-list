@@ -3,12 +3,12 @@
 	{
 		"abr": "abrasive",
 		"price": 3500,
-		"effect": "Has a tendency to slight and insult people \n-15% of the market value"
+		"effect": "Has a tendency to slight and insult people <br>-15% of the market value"
 	},
 	{
 		"abr": "annoyingvoice",
 		"price": 3500,
-		"effect": "-25% opinion from other colonists \n-20% of the market value"
+		"effect": "-25% opinion from other colonists <br>-20% of the market value"
 	}
 	],
 	"total" : 2
